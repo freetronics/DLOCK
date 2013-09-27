@@ -1,8 +1,8 @@
-Freetronics RFID Lock Shield
-============================
-Copyright 2010 Freetronics Pty Ltd  
-Freetronics site:  <www.freetronics.com>  
-Freetronics email: <info@freetronics.com>  
+Freetronics RFID Door Lock Shield
+==================================
+Copyright 2013 Freetronics Pty Ltd  
+Freetronics site:  www.freetronics.com  
+Freetronics email: info@freetronics.com  
 
 Based on the circuit described in the "RFID Access Control" project in
 the book "Practical Arduino", this shield allows you to control a door
@@ -19,7 +19,6 @@ Supported reader modules include:
 
 Features:
 
- * On-board 9V regulator to power Arduino from solenoid power supply.
  * Reset button wired through to Arduino reset pin.
  * Blue "Arduino power on" LED with current-limiting resistor.
  * 100nF bypass/smoothing capacitor on supply rails.
@@ -31,11 +30,8 @@ format.
 
 More information is available at:
 
-  http://www.freetronics.com/rfidlock
+  http://www.freetronics.com/dlock
   http://www.practicalarduino.com/projects/rfid-access-control
-
-The "docs" folder within this repository includes a handy copy of the
-schematic in PDF format and image(s) of the pcb.
 
 
 INSTALLATION
@@ -44,7 +40,7 @@ The design is saved as an EAGLE project. EAGLE PCB design software is
 available from www.cadsoftusa.com free for non-commercial use. To use
 this project download it and place the directory containing these files
 into the "eagle" directory on your computer. Then open EAGLE and
-navigate to Projects -> eagle -> RFIDLockShield.
+navigate to Projects -> eagle -> DLOCK.
 
 
 DISTRIBUTION
